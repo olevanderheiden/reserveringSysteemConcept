@@ -1,0 +1,22 @@
+{
+  "name": "ole/mannusfoods",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "olevanderheiden",
+      "email": "olejonasvanderheiden@gmail.com"
+    }
+  ],
+  "config": {
+    "vendor-dir": "includes/vendor"
+  },
+  "require": {
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "System\\": "includes/classes/System"
+    }
+  }
+}

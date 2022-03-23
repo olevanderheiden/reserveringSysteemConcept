@@ -1,0 +1,13 @@
+---
+
+- vars:
+  projectname: php-vagrant
+
+  enable_composer:      true
+  enable_default_tools: true
+  enable_mariadb:       true
+  enable_php:           true
+  enable_php_dev:       true
+  enable_nginx:         true
+
+
